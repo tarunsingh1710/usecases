@@ -1,0 +1,58 @@
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZ                                                          E
+webserver-image     v1                  91aef55ba22d        About an hour ago   109                                                          MB
+<none>              <none>              bb656f296387        4 hours ago         16.                                                          1MB
+<none>              <none>              f98bd958848b        5 hours ago         16.                                                          1MB
+<none>              <none>              019dbcbd8ca8        5 hours ago         16.                                                          1MB
+flask-sample        v1                  f1a247d1b62a        23 hours ago        471                                                          MB
+flask-sample-one    latest              f1a247d1b62a        23 hours ago        471                                                          MB
+<none>              <none>              5c8f6c381efd        23 hours ago        471                                                          MB
+<none>              <none>              9cb9eb74362a        23 hours ago        471                                                          MB
+<none>              <none>              c66e0c79d2f3        23 hours ago        466                                                          MB
+ubuntu              latest              d131e0fa2585        37 hours ago        102                                                          MB
+nginx               alpine              0be75340bd9b        11 days ago         16.                                                          1MB
+nginx               latest              27a188018e18        11 days ago         109                                                          MB
+hello-world         latest              fce289e99eb9        3 months ago        1.8                                                          4kB
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+CONTAINER ID        IMAGE                COMMAND                  CREATED             STATUS                         PORTS                             NAMES
+fd7beb431231        nginx:latest         "nginx -g 'daemon of…"   About an hour ago   Up About an hour               80/tcp, 0.0.0.0:32768->5000/tcp   optimistic_meninsky
+b269a0bd3ad8        nginx:latest         "nginx -g 'daemon of…"   About an hour ago   Created                                                          inspiring_archimedes
+09697433c6be        nginx:latest         "nginx -g 'daemon of…"   About an hour ago   Created                                                          boring_thompson
+a61feed6668f        webserver-image:v1   "nginx -g 'daemon of…"   About an hour ago   Up About an hour               0.0.0.0:80->80/tcp                silly_archimedes
+c122df5724da        nginx:latest         "nginx -g 'daemon of…"   About an hour ago   Created                                                          gallant_meitner
+622d74891889        bb656f296387         "nginx -g 'daemon of…"   2 hours ago         Exited (0) About an hour ago                                     jolly_shirley
+b4fbeae0c164        bb656f296387         "nginx -g 'daemon of…"   2 hours ago         Created                                                          reverent_wright
+528b11b698ec        nginx:latest         "nginx -g 'daemon of…"   2 hours ago         Exited (0) 2 hours ago                                           wonderful_sinoussi
+bfdeb3d11d8a        nginx:latest         "nginx -g 'daemon of…"   2 hours ago         Created                                                          laughing_lewin
+0623faf1d1c4        nginx:latest         "nginx -g 'daemon of…"   2 hours ago         Exited (0) 2 hours ago                                           practical_volhard
+6ee48f50ae3c        nginx:alpine         "."                      2 hours ago         Created                        0.0.0.0:80->80/tcp                nifty_mclean
+6edf9bd17900        bb656f296387         "."                      2 hours ago         Created                        0.0.0.0:80->80/tcp                practical_ritchie
+49d38845eb4d        bb656f296387         "."                      2 hours ago         Created                        0.0.0.0:80->80/tcp                vibrant_swartz
+cc96f17e0c1a        nginx:latest         "nginx -g 'daemon of…"   2 hours ago         Exited (0) 2 hours ago                                           peaceful_darwin
+1d650d12fc08        bb656f296387         "nginx -g 'daemon of…"   3 hours ago         Created                                                          elastic_morse
+779e5216a44e        nginx:latest         "nginx -g 'daemon of…"   4 hours ago         Exited (0) About an hour ago                                     voll1
+f42a91016aa6        nginx:latest         "nginx -g 'daemon of…"   4 hours ago         Exited (0) 3 hours ago                                           voll
+d02c488be1f0        f98bd958848b         "nginx -g 'daemon of…"   5 hours ago         Exited (0) 3 hours ago                                           boring_bhaskara
+664e04a4f94c        f98bd958848b         "nginx -g 'daemon of…"   5 hours ago         Created                                                          cocky_darwin
+e780426ede1c        019dbcbd8ca8         "nginx -g 'daemon of…"   5 hours ago         Exited (0) 3 hours ago                                           silly_proskuriakova
+3f503c1531d6        019dbcbd8ca8         "nginx -g 'daemon of…"   5 hours ago         Created                                                          quizzical_spence
+0db8dbcd6728        019dbcbd8ca8         "nginx -g 'daemon of…"   5 hours ago         Exited (0) 3 hours ago                                           sleepy_hoover
+da4765216789        019dbcbd8ca8         "nginx -g 'daemon of…"   5 hours ago         Created                                                          condescending_villani
+afd6d97fbbe7        019dbcbd8ca8         "nginx -g 'daemon of…"   5 hours ago         Created                                                          vigorous_morse
+1439c2a928a5        019dbcbd8ca8         "nginx -g 'daemon of…"   5 hours ago         Created                                                          cranky_mestorf
+84c6077977f4        019dbcbd8ca8         "nginx -g 'daemon of…"   5 hours ago         Created                                                          sleepy_blackwell
+e6c8b8dc6062        flask-sample-one     "python app.py"          23 hours ago        Exited (0) 2 hours ago                                           infallible_varahamihira
+55496d77b47e        flask-sample-one     "python app.py"          23 hours ago        Exited (0) 23 hours ago                                          agitated_williams
+9c7c35760fb4        5c8f6c381efd         "python app.py"          23 hours ago        Exited (1) 23 hours ago                                          priceless_curran
+a4394b85467a        5c8f6c381efd         "python app.py"          23 hours ago        Exited (1) 23 hours ago                                          ecstatic_jackson
+a46db3c3da5c        9cb9eb74362a         "python app.py"          23 hours ago        Exited (1) 23 hours ago                                          inspiring_sinoussi
+ef6c38821441        c66e0c79d2f3         "/bin/sh -c 'pip ins…"   23 hours ago        Exited (1) 23 hours ago                                          modest_murdock
+bdb5aac0a9eb        f376617802b1         "/bin/sh -c 'apt-get…"   24 hours ago        Exited (100) 24 hours ago                                        goofy_saha
+a9b9a4366c1d        d131e0fa2585         "/bin/sh -c 'apt-get…"   24 hours ago        Exited (100) 24 hours ago                                        peaceful_tesla
+04e1a61c5109        hello-world          "/hello"                 24 hours ago        Exited (0) 24 hours ago    
+                                      vigilant_chebyshev
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+DRIVER              VOLUME NAME
+local               my-vol
